@@ -1,0 +1,39 @@
+* {background-color: black; color: white;}
+
+header {
+    display: flex;
+}
+
+footer {
+    
+    display: flex;
+}
+
+ul {
+    margin: auto;
+    display:flex;
+    list-style-type: none;
+}
+
+ul>li {
+    margin: 30px;
+}
+
+.mainDiv {
+    min-height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+.container {
+    width: 50%;
+}
+
+.carteBoutique {
+    width: 40%;
+    height: 200px;
+    background-color: darkgray;
+    margin: 5px auto;
+}
