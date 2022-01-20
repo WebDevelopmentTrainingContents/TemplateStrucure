@@ -4,7 +4,7 @@ require('head.php');
 ?>
 
 <header>
-    <div id=divLogo class="container">
+    <div id="divLogo" class="container">
         <img src="../../Images/imgDev.jpg" alt="">
     </div>
     <div id="divNav" class="container">
