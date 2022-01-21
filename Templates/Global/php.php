@@ -9,6 +9,18 @@ function boucleLiens($a){
     }
 }
 
+
+// exemple de non utilisation d'un ou plusieurs arguments :
+/* function fonctionTest($test, $test2, $test3) {
+    if($test < 5) {
+        echo $test2;
+    }
+    else {
+        echo $test3;
+    }
+}
+ */
+
 function boucleCartesProduits($a){
     
     foreach($a as $b){
@@ -33,6 +45,33 @@ $titresProduits = ['Ceinture' , 'Casquette' , 'Bonnet' , 'Pantalon'];
 
 //-------------------------------- Footer :
 
-$liensFooter = ['Contactez-Nous' , 'Formulaire' , 'Telephone' , 'Réseaux Sociaux'];
+$chiffre = "8";
+$couleur = "";
+
+var_dump($couleur);
+
+if($chiffre < 5) {
+    $couleur = "brown";
+}
+else {
+    $couleur = "grey";
+}
+var_dump($couleur);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$liensFooter = ['Contactez-Nous' , 'Formulaire' , 'Telephone' , 'Réseaux Sociaux', 'Mentions légales'];
 
 ?>
