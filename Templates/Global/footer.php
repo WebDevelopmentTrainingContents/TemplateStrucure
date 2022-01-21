@@ -1,5 +1,5 @@
 <footer style="background-color: <?= $couleur ?>;">
-<ul style="background-color: <?= $couleur ?>;">
+<ul class="<?= $classe ?>" style="background-color: <?= $couleur ?>;">
 <?= boucleLiens($liensFooter) ?>
 </ul>
 </footer>

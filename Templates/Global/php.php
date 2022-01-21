@@ -45,7 +45,7 @@ $titresProduits = ['Ceinture' , 'Casquette' , 'Bonnet' , 'Pantalon'];
 
 //-------------------------------- Footer :
 
-$chiffre = "2";
+$chiffre = "3";
 $couleur = "";
 $classe = "";
 
@@ -53,10 +53,11 @@ var_dump($couleur);
 
 if($chiffre < 5) {
     $couleur = "brown";
-    $classe = "" ;
+    $classe = "classe1" ;
 }
 else {
     $couleur = "grey";
+    $classe = "class2"
 }
 var_dump($couleur);
 
