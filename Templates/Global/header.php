@@ -5,7 +5,7 @@ require('head.php');
 
 <header>
     <div id=divLogo class="container">
-        <img src="../../Images/sql.png" alt="">
+        <img src="../../Public/Images/sql.png" alt="">
     </div>
     <div id="divNav" class="container">
         <ul>
@@ -21,4 +21,5 @@ require('head.php');
 <li><a href=\"\">" xxx "</a></li>
 </ul> -->
     </div>
+    <img src="../../Public/Images/imgDev.jpg" alt="">
 </header>

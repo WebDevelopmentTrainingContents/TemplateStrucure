@@ -57,7 +57,7 @@ if($chiffre < 5) {
 }
 else {
     $couleur = "grey";
-    $classe = "class2"
+    $classe = "class2";
 }
 var_dump($couleur);
 
