@@ -2,6 +2,7 @@
 
 header {
     display: flex;
+    height: 20vh;
 }
 
 footer {
@@ -36,4 +37,8 @@ ul>li {
     height: 200px;
     background-color: darkgray;
     margin: 5px auto;
+}
+
+#divLogo img {
+    max-height: 100%;
 }

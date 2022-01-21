@@ -47,11 +47,13 @@ $titresProduits = ['Ceinture' , 'Casquette' , 'Bonnet' , 'Pantalon'];
 
 $chiffre = "8";
 $couleur = "";
+$classe = "";
 
 var_dump($couleur);
 
 if($chiffre < 5) {
     $couleur = "brown";
+    $classe = 
 }
 else {
     $couleur = "grey";
